@@ -136,12 +136,12 @@ char *words[]     = {"THE", "OF", "AND", "TO", "A", "IN", "THAT", "IS", "WAS", "
                      "BEFORE", "MUST", "WELL", "BACK", "THROUGH", "YEARS", "MUCH", "WHERE", "YOUR", "WAY"  
                     };
 char *antenna[]   = {"YAGI", "DIPOLE", "VERTICAL", "HEXBEAM", "MAGLOOP"};
-char *weather[]   = {"HOT", "SUNNY", "WARM", "CLOUDY", "RAINY", "COLD", "SNOWY", "CHILLY", "WINDY", "FOGGY"};
-char *names[]     = {"WAYNE", "TYE", "DARREN", "MICHAEL", "SARAH", "DOUG", "FERNANDO", "CHARLIE", "HOLLY",
-                     "KEN", "SCOTT", "DAN", "ERVIN", "GENE", "PAUL", "VINCENT"};
+char *weather[]   = {"SICAK", "GUNESLI", "BUNALTICI", "BULUTLU", "YAGMURLU", "SOGUK", "KARLI", "DONDURUCU", "RUZGARLI", "SISLI"};
+char *names[]     = {"ERHAN", "MAHMUT", "CEVRIYE", "HUSEYIN", "YASLI", "MERT", "GULNAZ", "NURCAN", "ERCAN",
+                     "IBRAHIM", "KEMAL", "NURIYE", "CUNEYT", "MUSTAFA", "ENDER", "METIN"};
 char *cities[]    = {"DAYTON, OH", "HADDONFIELD, NJ", "MURRYSVILLE, PA", "BALTIMORE, MD", "ANN ARBOR, MI", 
                      "BOULDER, CO", "BILLINGS, MT", "SANIBEL, FL", "CIMMARON, NM", "TYLER, TX", "OLYMPIA, WA"};
-char *rigs[]      = {"YAESU FT101", "KENWOOD 780", "ELECRAFT K3", "HOMEBREW", "QRPLABS QCX", "ICOM 7410", "FLEX 6400"};
+char *rigs[]      = {"BAOFENG UV5R", "YAESU FT450", "KENWOOD 780", "ELECRAFT K3", "HOMEBREW", "QRPLABS QCX", "ICOM 7410"};
 char punctuation[]= "!@$&()-+=,.:;'/";
 char prefix[]     = {'A', 'W', 'K', 'N'};
 char koch[]       = "KMRSUAPTLOWI.NJEF0Y,VG5/Q9ZH38B?427C1D6X";
@@ -233,10 +233,10 @@ int startItem   = 0;                              // startup activity.  0 = main
 
 //===================================  Menu Variables ===================================
 int  menuCol=0, textRow=0, textCol=0;
-char *mainMenu[] = {" Receive ", "  Send  ", "Config "};        
-char *menu0[]    = {" Koch    ", " Letters ", " Words   ", " Numbers ", " Mixed   ", " SD Card ", " QSO     ", " Callsign", " Exit    "};
-char *menu1[]    = {" Practice", " Copy One", " Copy Two", " Cpy Word", " Cpy Call", " Flashcrd", " Head Cpy", " Two-Way ", " Exit    "};
-char *menu2[]    = {" Speed   ", " Chk Spd ", " Tone    ", " Key     ", " Callsign", " Screen  ", " Defaults", " Exit    "};
+char *mainMenu[] = {" ALMA    ", " GONDERME", " KONFIG  "};        
+char *menu0[]    = {" Koch    ", " Harf    ", " Kelime  ", " Numara  ", " Karisik ", " SD Kart ", " QSO     ", "CagriKodu", " Cikis   "};
+char *menu1[]    = {" Pratik  ", " Copy One", " Copy Two", " Klme Kpy", " Cpy Call", " Flashcrd", " Head Cpy", " Two-Way ", " Cikis   "};
+char *menu2[]    = {" Hiz     ", " Hiz Dgtr", " Ton     ", " Anahtar ", " CgriKodu", " Ekran   ", " Varsayln", " Cikis   "};
 
 
 //===================================  Wireless Code  ===================================
