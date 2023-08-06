@@ -8,5 +8,7 @@ Original project "Morse Code Tutor" done by Jack Purdum W8TEE.
 Full description and 8-part tutorial available at w8bh.net
 Prepared a howto guide in my blog page at ta2wk.com
 
+Youtube video: https://www.youtube.com/watch?v=-hPkAeXV-OM
+
 TA2WK Erhan
 
